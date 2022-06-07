@@ -47,8 +47,8 @@ Special helper routines like `__chkstk_Arm64ec` use custom calling conventions a
 |`x13`|N/A|disallowed|volatile|N/A|
 |`x14`|N/A|disallowed|volatile|N/A|
 |`x15`|`mm7` (low 64 bits of x87 `R7` register)|volatile|volatile|volatile|
-|`x16|High 16 bits of each of the x87 `R0-R3` registers|volatile(xip0)|volatile(xip0)|volatile|
-|`x17`|High 16 bits of each of the x87 `R4-R7` registers|volatile(xip1)|volat`ile(xip1)|volatile|
+|`x16`|High 16 bits of each of the x87 `R0-R3` registers|volatile(xip0)|volatile(xip0)|volatile|
+|`x17`|High 16 bits of each of the x87 `R4-R7` registers|volatile(xip1)|volatile(xip1)|volatile|
 |`x18`|N/A|fixed(TEB)|fixed(TEB)|volatile|
 |`x19`|`r12`|non-volatile|non-volatile|non-volatile|
 |`x20`|`r13`|non-volatile|non-volatile|non-volatile|
